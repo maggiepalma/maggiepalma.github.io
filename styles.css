@@ -4,3 +4,25 @@ Toad green: E9EDC9
 Silk: FEFAE0
 Sand: FAEDCD
 Fawn: D4A373*/
+
+.navbar-brand{
+    font-family: Fleur De Leah;
+    color:#D4A373;
+}
+
+.container-fluid{
+    background-color: #E9EDC9;
+    font-family: Buda;
+}
+
+.navbar-nav{
+    font-family: Zilla Slab;
+}
+
+.container{
+    font-family: Zilla Slab;
+}
+
+.col-sm-8{
+    font-family: Zilla Slab;
+}

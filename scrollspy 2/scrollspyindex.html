@@ -5,23 +5,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" herf="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Buda:wght@300&family=Fleur+De+Leah&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+  
   body {
     position: relative; 
   }
-  #section1 {padding-top:80px;height:550px;color: rgb(0, 0, 0); background-color: #ffffff; border-style: solid; border-color: rgb(49, 49, 49); border-width: 2px;}
-  h3 {font-family: 'Times New Roman', Times, serif;}
-  #section2 {padding-top:35px;height:550px;color: rgb(0, 0, 0); background-color: #ffffff; border-style: solid; border-color: rgb(48, 48, 48); border-width: 2px;}
-  #section3 {padding-top:35px;height:600px;color: rgb(0, 0, 0); background-color: #ffffff; border-style: solid; border-color: rgb(46, 46, 46); border-width: 2px;}
-  #section41 {padding-top:40px;height:600px;color: rgb(0, 0, 0); background-color: #ffffff; border-style: solid; border-color: rgb(48, 48, 48); border-width: 2px;}
-  #section42 {padding-top:40px;height:650px;color: rgb(0, 0, 0); background-color: #ffffff; border-style: solid; border-color: rgb(48, 48, 48); border-width: 2px;}
+  #section1 {padding-top:80px;height:550px;color: rgb(255, 255, 255); background-color: #CCD5AE; border-style: solid; border-color: rgb(49, 49, 49); border-width: 2px;}
+  h3 {font-family: Zilla Slab, Times, serif;}
+  h1 {font-family: Zilla Slab, Times, serif;}
+  .navbar{font-family: Zilla Slab, Times, serif; background-color:cornsilk;}
+  #section2 {padding-top:35px;height:550px;color: rgb(255, 255, 255); background-color: #E9EDC9; border-style: solid; border-color: rgb(48, 48, 48); border-width: 2px;}
+  #section3 {padding-top:35px;height:600px;color:darkgray; background-color: #FEFAE0; border-style: solid; border-color: rgb(46, 46, 46); border-width: 2px;}
+  #section41 {padding-top:40px;height:600px;color:darkgray; background-color: #FAEDCD; border-style: solid; border-color: rgb(48, 48, 48); border-width: 2px;}
+  #section42 {padding-top:40px;height:650px;color: rgb(255, 255, 255); background-color: #D4A373; border-style: solid; border-color: rgb(48, 48, 48); border-width: 2px;}
+  
   </style>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
+
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -29,21 +39,29 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+
+      <a class="navbar-brand" href="#">Scrollspy Cheatsheet</a>
+
     </div>
     <div>
+
       <div class="collapse navbar-collapse" id="myNavbar">
+        
         <ul class="nav navbar-nav">
+          <li><a href="https://maggiepalma.github.io/">mp</a> </li>
           <li><a href="#section1">Section 1</a></li>
           <li><a href="#section2">Section 2</a></li>
           <li><a href="#section3">Section 3</a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            
             <ul class="dropdown-menu">
               <li><a href="#section41">Section 4-1</a></li>
               <li><a href="#section42">Section 4-2</a></li>
+            
             </ul>
           </li>
         </ul>
+      
       </div>
     </div>
   </div>
@@ -61,6 +79,7 @@
   </h3>
   <br>
 </div>
+
 <div id="section2" class="container-fluid">
   <h1>Section 2</h1>
   <br>
@@ -71,6 +90,7 @@
   <h3>This second section of the HTML is utilized to style both the body and each of the five different sections that are in the navigation bar.</h3>
   <br>
 </div>
+
 <div id="section3" class="container-fluid">
   <h1>Section 3</h1>
   <br>
@@ -81,6 +101,7 @@
   <h3>This third section deals with creating and styling most of the navigation bar not including the section 4 dropdown-menu.</h3>
   <br>
 </div>
+
 <div id="section41" class="container-fluid">
   <h1>Section 4 Submenu 1</h1>
   <br>
@@ -92,6 +113,7 @@
     tags from section 3. </h3>
   <br>
 </div>
+
 <div id="section42" class="container-fluid">
   <h1>Section 4 Submenu 2</h1>
   <br>
