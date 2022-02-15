@@ -9,31 +9,80 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-sm bg-light navbar-fixed-top">
+  <div class="container-fluid">
+    <!--Logo-->
+    <a class="navbar-brand" href="#">MP</a>
+    <!--Nav Bar-->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="scrollspy 2/scrollspyindex.html">Scrollspy Cheatsheet</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--Header-->
 
 <div class="container-fluid p-5 bg-primary text-white text-center">
-  <h1>Interactive II portfolio</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+  <h1>Maggie Palma: Portfolio Page</h1>
+  <p>Interactive II Spring 2022</p> 
 </div>
-  
+  <!--about me section-->
+
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>About Me</h3>
+      <h5>Photo of me</h5>
+      <div class="img">Image</div>
+      <p>Some text about me</p>
+    
+    <!--Secondary Links-->
+    <h3 class="mt-4">Project links</h3>
+    <p>Projects completed</p>
+    <ul class="nav nav-pills flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+      <hr class="d-sm-none">
+    </ul>
+</div>
+    <!--Portfolio-->
+    <div class="col-sm-8">
+      <h2>Title</h2>
+      <h5>Descripion</h5>
+      <img class="img-fluid">
+      <p>text</p>
+      <p>more text</p>
+
+    <h2 class="mt-5">Title</h2>
+      <h5>Descripion</h5>
+      <img class="img-fluid">
+      <p>text</p>
+      <p>more text</p>
     </div>
   </div>
 </div>
 
+<!--Footer-->
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p>Footer</p>
+</div>
 </body>
 </html>
