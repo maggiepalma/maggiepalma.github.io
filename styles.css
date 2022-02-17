@@ -11,8 +11,17 @@ Fawn: D4A373*/
 }
 
 .container-fluid{
-    background-color: #E9EDC9;
+    background-color: #FAEDCD;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: -8px;
+}
+
+.container-fluid-2{
+    background-color: #CCD5AE;
     font-family: Buda;
+    margin-top: -8px;
+    margin-bottom: 0px;
 }
 
 .navbar-nav{
@@ -25,4 +34,19 @@ Fawn: D4A373*/
 
 .col-sm-8{
     font-family: Zilla Slab;
+}
+
+.body{
+    background-color: #FEFAE0;
+    margin-bottom: -40px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.footer{
+    background-color: #E9EDC9;
+    font-family: Zilla Slab;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: -50px;
 }
