@@ -36,11 +36,6 @@ Fawn: D4A373*/
     font-family: Zilla Slab;
 }
 
-img{
-    max-width: 160px;
-    max-height: 160px;
-}
-
 .body{
     background-color: #FEFAE0;
     margin-bottom: -40px;
