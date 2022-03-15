@@ -7,7 +7,7 @@ Fawn: D4A373*/
 
 .navbar-brand{
     font-family: Fleur De Leah;
-    color:#D4A373;
+    color:#CCD5AE;
 }
 
 .container-fluid{
@@ -15,12 +15,8 @@ Fawn: D4A373*/
     margin-top: -8px;
 }
 
-.nav-link{
-    color: #D4A373;
-}
-
 .container-fluid-2{
-    background-color: #CCD5AE;
+    
     font-family: Buda;
     margin-top: -8px;
     margin-bottom: 0px;
