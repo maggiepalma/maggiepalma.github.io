@@ -12,9 +12,11 @@ Fawn: D4A373*/
 
 .container-fluid{
     background-color: #FAEDCD;
-    padding-bottom: 15px;
-    padding-top: 15px;
     margin-top: -8px;
+}
+
+.nav-link{
+    color: #D4A373;
 }
 
 .container-fluid-2{
@@ -22,6 +24,8 @@ Fawn: D4A373*/
     font-family: Buda;
     margin-top: -8px;
     margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .navbar-nav{
@@ -37,7 +41,6 @@ Fawn: D4A373*/
 }
 
 .body{
-    background-color: #FEFAE0;
     margin-bottom: -40px;
     padding-top: 1px;
     padding-bottom: 5px;
