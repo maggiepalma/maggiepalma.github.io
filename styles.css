@@ -7,7 +7,8 @@ Fawn: D4A373*/
 
 .navbar-brand{
     font-family: Fleur De Leah;
-    color:#CCD5AE;
+    font-weight: 700;
+    color:#a2aa86;
 }
 
 .container-fluid{
@@ -43,7 +44,7 @@ Fawn: D4A373*/
 }
 
 .footer{
-    background-color: #E9EDC9;
+    background-color: #a2aa86;
     font-family: Zilla Slab;
     align-items: center;
     vertical-align: middle;
