@@ -1,0 +1,11 @@
+.parallax{
+    min-height: 300;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.p{
+    font-family: space mono;
+    justify-content: center;
+}
