@@ -35,39 +35,44 @@
   </nav>
 
   <!--new header- HAD TO MAKE NEG MARGIN ALT TO Z-INDEX-->
+  <div id="socials">
   <div class="row">
-     <img src="COIN 1.png" class="img-responsive" width="100%" style="margin-top: -30px;">   
-      <div class="socials col-xs-1" style="padding-left: 30px; padding-bottom: 20px; top: -500px; margin-bottom: -500px;">
+     <img src="COIN 1.png" class="img-responsive" width="100%" style="position: relative; z-index: 0;">   
+
+    <!--social links-->
+      <div class="socials col-xs-5" style="padding-left: 30px; padding-bottom: 20px; top: -330px; margin-bottom: -500px;">
       <a href="https://www.youtube.com/channel/UC6h4jyQpiHdGVib5coMc44w" target="blank">
-        <img src="youtube social.png" style="border-radius: 50%; margin-bottom: 5px;">
+        <img src="youtube social.png" class="img-responsive" style="border-radius: 50%; margin-bottom: 5px; max-width: 50px;">
       </a>
   
       <a href="https://twitter.com/coin" target="blank">
-        <img src="Twitter.png" style="border-radius: 50%; margin-bottom: 5px;">
+        <img src="Twitter.png" class="img-responsive" style="border-radius: 50%; margin-bottom: 5px; max-width: 50px;">
       </a>
   
       <a href="https://www.facebook.com/thisiscoin" target="blank">
-        <img src="facebook.png" style="border-radius: 50%; margin-bottom: 5px;" >
+        <img src="facebook.png" class="img-responsive" style="border-radius: 50%; margin-bottom: 5px; max-width: 50px;" >
       </a>
   
       <a href="https://www.instagram.com/coin/" target="blank">
-       <img src="instagram.png" style="border-radius: 50%; margin-bottom: 5px;">
+       <img src="instagram.png" class="img-responsive" style="border-radius: 50%; margin-bottom: 5px; max-width: 50px;">
       </a>
   
       <a href="https://open.spotify.com/artist/0ZxZlO7oWCSYMXhehpyMvE?si=5N5AnLBsSwuBuXxgYA_Znw&nd=1" target="blank">
-        <img src="Spotify.png" style="border-radius: 50%; margin-bottom: 5px;">
+        <img src="Spotify.png" class="img-responsive" style="border-radius: 50%; margin-bottom: 5px; max-width: 50px;">
       </a>
   
       <a href="https://music.apple.com/us/artist/coin/965021417" target="blank">
-        <img src="Apple_Music_Icon_CMYK_wht_072420.png" style="border-radius: 50%; margin-bottom: 5px;">
+        <img class="img-responsive" src="Apple_Music_Icon_CMYK_wht_072420.png" style="border-radius: 50%; margin-bottom: 5px; max-width: 50px;">
       </a>
       </div> 
      
        <p style="font-family: space mono; padding-left: 20px; text-align: center;">COIN is an American pop rock band formed in 2012 in Nashville, Tennessee. Ryan Winnen (left), Chase Lawrence (middle), and Joe Memmel (right) join together to create a synth pop sound that is practically unheard of in Nashville.</p>
-    
+</div>
 </div>
 
 <!--ADDED SPOTIFY EMBED AFTER TEXT-->
+<!--new album and spotify embed-->
+<div id="album">
   <div class="row">
     <div class="col-xs-12 col-md-6" style="padding-left: 20px; text-align: center;">
         <h3 style="font-family: space mono; color: #5DF81E;">UNCANNY VALLEY</h3>
@@ -78,10 +83,14 @@
       <img src="Uncanny Valley.png" class="img-responsive" width="100%" style="padding-left: 10px;">
     </div>
   </div>
+</div>
 
+<!--parallax-->
   <div class="contianer parallax parallax-img bg-primary" style="background-image: url(COIN5.png); margin-top: 20px;"></div>
   
 <!--MOVED VIDEO AND ADDED HEADER-also made it full size for mobile and larger for tablet -->
+<!--Music video-->
+<div id="video">
   <div class="row d-flex justify-content-center">
     <h3 style="font-family: space mono; color: #5DF81E; text-align: center;">WATCH</h3>
     <div class="col-md-8" style="margin-top: 20px;">
@@ -90,13 +99,16 @@
       </div>
     </div>
   </div>
-  
+</div>
+
+<!--parallax-->
   <div class="contianer parallax parallax-img bg-primary" style="background-image: url(COIN2.png); margin-top: 20px;"></div>
   
   <!--ADDED REST OF DATES, CHANGE HYPERLINKS TO BUTTONS-->
-  <div class="container">
+  <!--tour-->
+  <div id="tour">
   <div class="row d-flex justify-content-center">
-    <div class=" col-xs-12 text-center">
+    <div class=" col-xs-6 text-center">
       <h3 style="font-family: space mono; color: #5DF81E;">TOUR</h3>
 
         <p style="font-family: space mono;">Apr. 6, 2022 Wembley, Greater London</p>
@@ -421,12 +433,14 @@
   </div>
   </div>
   
+  <!--parallax-->
   <div class="contianer parallax parallax-img bg-primary" style="background-image: url(COIN3.png); margin-top: 20px;"></div>
   
   <!--Change to center font-->
-  <div>
+  <!--merch-->
+<div id="merch">
       <h3 style="font-family:space mono; color: #5DF81E; text-align: center;">MERCH</h3>
-    </div>
+ 
 <!--MADE THEM STACK FOR MOBILE, CENTER TEXTS AND IMG-->
   <div class="row d-flex">
     <div class="col-xs-12 col-md-4">
@@ -436,7 +450,7 @@
             <button style=" font-family: space mono; background-color: #0001F0; border-color:#0001F0; color: white; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto;">Shop here</button>
         </a>
     </div>
-  
+
     <div class="col-xs-12 col-md-4">
         <img src="Merch 2.png" class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;">
         <h4 style="font-family: space mono; text-align: center;">$30.00</h4>
@@ -454,38 +468,85 @@
         </a>
     </div>
   </div>
+</div>
   
+<!--paralax-->
   <div class="contianer parallax parallax-img bg-primary" style="background-image: url(COIN6.png); margin-top: 20px;"></div>
-  
+
+  <!--other artists made stack on moble and added the names as links-->
+<div id="other artists">
   <div class="row" style="justify-content: center;">
     <div class="col-xs-12">
       <h3 style="font-family:space mono; color: #5DF81E; text-align: center;">OUR FRIENDS</h3>
     </div>
+
+    <div class="col-md-4">
+        <a href="https://www.fayewebster.com/" target="blank">
+        <h4 style="font-family: space mono; text-align: center; color: #FB722D;">Faye Webster</h4>
+      </a>
+      <img src="Faye Webster.png" class="img-responsive" style="margin-left: 5px; display: block; margin-left: auto; margin-right: auto;">
+      
+    </div>
+  
+    <div class="col-md-4">
+        <a href="https://www.heymazie.com/" target="blank">
+        <h4 style="font-family: space mono; text-align: center; color: #5DF81E;">Mazie</h4>
+        </a>
+         <img src="Mazie.png" class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;">
+    </div>
+  
+    <div class="col-md-4">
+       <a href="https://www.thisisvalley.com/" target="blank">
+        <h3 style="font-family: space mono; text-align: center; color: #53EDF9;">Valley</h4>
+        </a> 
+            <img src="Valley.png" class="img-responsive" style="margin-left: -5px; display: block; margin-left: auto; margin-right: auto;">
+      
+    </div>
   </div>
-  
-  <div class="row" style="justify-content: center;">
-    <div class="col-md-4">
-        <img src="Faye Webster.png" class="img-responsive" style="margin-left: 5px; display: block; margin-left: auto; margin-right: auto;">
-      <a href="https://www.fayewebster.com/" target="blank">
-        <h4 style="font-family: space mono; text-align: center; color: #0001F0;">Faye Webster</h4>
-      </a>
-    </div>
-  
-    <div class="col-md-4">
-        <img src="Mazie.png" class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;">
-      <a href="https://www.heymazie.com/" target="blank">
-        <h4 style="font-family: space mono; text-align: center; color: #0001F0;">Mazie</h4>
-      </a>
-    </div>
-  
-    <div class="col-md-4">
-        <img src="Valley.png" class="img-responsive" style="margin-left: -5px; display: block; margin-left: auto; margin-right: auto;">
-      <a href="https://www.thisisvalley.com/" target="blank">
-        <h4 style="font-family: space mono; text-align: center; color: #0001F0;">Valley</h4>
-      </a>
-    </div>
-  </div>
-  
+</div>
+
   </body>
+<!--FOOTER-->
+<footer>
+<div class="container">
+  <div class="row" style="text-align: center;">
+    <div class="col-md-2"> 
+        <a style="color:#DE1312;" class="foothover" href="#socials">
+            <h3 style="font-family: space mono;">SOCIALS</h3>
+        </a>
+      </div>
+
+      <div class="col-md-2"> 
+        <a style="color:#53EDF9;" class="foothover" href="#album">
+            <h3 style="font-family: space mono;"> UNCANNY VALLEY</h3> 
+        </a>
+      </div>
+
+      <div class="col-md-2"> 
+        <a style="color:#EA1BB5;" class="foothover" href="#video">
+            <h3 style="font-family: space mono;">WATCH</h3>
+        </a>
+      </div>
+
+      <div class="col-md-2"> 
+        <a style="color:#0001F0;" class="foothover" href="#tour" class="ps-lg-3">
+            <h3 style="font-family: space mono;">TOUR</h3>
+        </a>
+      </div>
+
+      <div class="col-md-2">
+        <a style="color:#5DF81E;" class="foothover" href="#merch">
+            <h3 style="font-family: space mono;">MERCH</h3>
+        </a>
+      </div>
+
+      <div class="col-md-2">
+        <a style="color:#FB722D;" class="foothover" href="#other artists">
+            <h3 style="font-family: space mono;">OUR FRIENDS</h3>
+        </a>
+      </div>
+    </div>
+</div>
+  </footer>
   </html>
   
